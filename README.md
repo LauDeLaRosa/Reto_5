@@ -6,7 +6,7 @@ Dado un número entero, determinar si ese número corresponde al código ASCII d
 ![image](https://user-images.githubusercontent.com/124603892/222986405-b9308778-2653-4837-8616-ed77f59434a9.png)
 
 ```python
-n: Int
+n: int
 n = int(input("lngrese un numero: "))
 a = chr(n)
 v = 'a' or 'e' or 'i' or 'o' or 'u'
