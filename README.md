@@ -1,9 +1,22 @@
 # Sufriendo como Inge Vol.2
 ## Solución a los problemas
-A continuación le doy solución a 6 problemas de programación, lastimosamente no son soluciones a problemas de mi vida.
+A continuación le doy solución a 6 problemas de programación, lastimosamente no son soluciones a problemas de mi vida. 
 ### Vocal minúscula
 Dado un número entero, determinar si ese número corresponde al código ASCII de una vocal minúscula.
 ![image](https://user-images.githubusercontent.com/124603892/222986405-b9308778-2653-4837-8616-ed77f59434a9.png)
+
+```python
+n: Int
+n = int(input("lngrese un numero: "))
+a = chr(n)
+v = 'a' or 'e' or 'i' or 'o' or 'u'
+if str(a) == str(v) :
+  print ("es una vocal minuscula")
+  print (chr(n))
+else:
+  print ("no es una vocal minuscula")
+  print (chr(n))
+```
 ### Cadena de Longitud 1
 Dada una cadena de longitud 1, determine si el código ASCII de primera letra de la cadena es par o no.
 ![image](https://user-images.githubusercontent.com/124603892/222986455-1cc241f3-39bf-4c6e-9137-ee58aafaf718.png)
